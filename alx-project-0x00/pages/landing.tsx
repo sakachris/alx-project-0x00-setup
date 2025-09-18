@@ -13,24 +13,25 @@ const Landing: React.FC =  () => {
       {/* --- Size Variants --- */}
       <div className="flex gap-4 flex-wrap">
         {/* small: less padding */}
-        <Button title="Small" className="text-sm px-3 py-1" />
+        <Button title="Small" styles="text-sm px-3 py-1" />
         {/* medium: default */}
-        <Button title="Medium" className="text-base px-5 py-2" />
+        <Button title="Medium" styles="text-base px-5 py-2" />
         {/* large: more padding */}
-        <Button title="Large" className="text-lg px-8 py-4" />
+        <Button title="Large" styles="text-lg px-8 py-4" />
       </div>
 
       {/* --- Shape Variants --- */}
       <div className="flex gap-4 flex-wrap">
-        <Button title="Rounded-sm" className="px-5 py-2 rounded-sm" />
-        <Button title="Rounded-md" className="px-5 py-2 rounded-md" />
-        <Button title="Rounded-full" className="px-5 py-2 rounded-full" />
+        <Button title="Rounded-sm" styles="px-5 py-2 rounded-sm" />
+        <Button title="Rounded-md" styles="px-5 py-2 rounded-md" />
+        <Button title="Rounded-lg" styles="px-5 py-2 rounded-lg" />
+        <Button title="Rounded-full" styles="px-5 py-2 rounded-full" />
       </div>
 
       {/* --- Fixed width/height example --- */}
       <div className="flex gap-4 flex-wrap">
         <Button title="Fixed W/H"
-          className="w-40 h-12 text-base rounded-md" />
+          styles="w-40 h-12 text-base rounded-md" />
       </div>
     </main>
     </div>
